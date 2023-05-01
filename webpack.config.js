@@ -4,7 +4,7 @@ const ESLintPlugin = require("eslint-webpack-plugin");
 const StylelintPlugin = require("stylelint-webpack-plugin");
 
 module.exports = {
-  mode: "development",
+  mode: "production",
   target: "web",
   entry: {
     index: "./src/index.js",

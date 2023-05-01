@@ -23,8 +23,8 @@
     "extends": "stylelint-config-standard"
   },
   "devDependencies": {
-    "@babel/core": "^7.21.3",
-    "@babel/preset-env": "^7.20.2",
+    "@babel/core": "^7.21.5",
+    "@babel/preset-env": "^7.21.5",
     "@babel/runtime": "^7.21.0",
     "airbnb-browser-shims": "^3.3.0",
     "astroturf": "^1.2.0",
@@ -44,21 +44,19 @@
     "sass": "^1.62.1",
     "sass-loader": "^13.2.2",
     "source-map-loader": "^4.0.1",
-    "style-loader": "^3.3.2",
     "stylelint": "^15.3.0",
     "stylelint-config-standard": "^31.0.0",
     "stylelint-webpack-plugin": "^4.1.0",
-    "webpack": "^5.76.2",
-    "webpack-cli": "^5.0.1",
+    "webpack": "^5.81.0",
+    "webpack-cli": "^5.0.2",
     "webpack-dev-middleware": "^6.0.2",
-    "webpack-dev-server": "^4.11.1"
+    "webpack-dev-server": "^4.13.3"
   },
   "dependencies": {
-    "-": "^0.0.1",
-    "date-fns": "^2.29.3",
-    "html-webpack-plugin": "^5.5.0",
+    "date-fns": "^2.30.0",
+    "html-webpack-plugin": "^5.5.1",
     "normalize.css": "^8.0.1",
-    "style-loader": "^3.3.1",
+    "style-loader": "^3.3.2",
     "uuid": "^9.0.0"
   }
 }
