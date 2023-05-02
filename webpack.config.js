@@ -9,7 +9,7 @@ module.exports = {
   entry: {
     index: "./src/index.js",
   },
-  devtool: "inline-source-map",
+  devtool: "source-map",
   devServer: {
     allowedHosts: [".preview.csb.app", "localhost"],
     // .preview.csb.app is the domain for CodeSandbox.io
@@ -34,7 +34,7 @@ module.exports = {
     },
   },
   output: {
-    filename: "[name].bundle.js",
+    filename: "[name].js",
     path: path.resolve(__dirname, "dist"),
     publicPath: "/",
     clean: true,

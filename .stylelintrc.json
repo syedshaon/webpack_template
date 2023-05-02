@@ -1,6 +1,13 @@
 {
-  "extends": "stylelint-config-standard-scss",
+  "extends": "stylelint-config-recommended",
   "rules": {
-    "import-notation": "string"
+    "at-rule-no-unknown": [
+      true,
+      {
+        "ignoreAtRules": ["extends"]
+      }
+    ],
+    "block-no-empty": null,
+    "unit-allowed-list": ["em", "rem", "s"]
   }
 }

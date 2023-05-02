@@ -22,7 +22,6 @@ syler.sass-indented
 xabikos.JavaScriptSnippets
 
 # VS code settings.json
-
 {
   "files.autoSave": "onFocusChange",
   "editor.minimap.enabled": true,
@@ -107,6 +106,5 @@ xabikos.JavaScriptSnippets
       "args": ["-NoLogo"]
     }
   },
-  "terminal.integrated.enableMultiLinePasteWarning": false,
-  "window.zoomLevel": 2
+  "terminal.integrated.enableMultiLinePasteWarning": false
 }
