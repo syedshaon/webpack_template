@@ -83,6 +83,7 @@ xabikos.JavaScriptSnippets
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
+  "prettier.printWidth": 800,
   "eslint.validate": ["javascript"],
   "terminal.integrated.defaultProfile.windows": "Git Bash",
   "terminal.integrated.profiles.windows": {
