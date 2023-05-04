@@ -22,6 +22,7 @@ syler.sass-indented
 xabikos.JavaScriptSnippets
 
 # VS code settings.json
+
 {
   "files.autoSave": "onFocusChange",
   "editor.minimap.enabled": true,
@@ -47,7 +48,7 @@ xabikos.JavaScriptSnippets
   "liveSassCompile.settings.formats": [
     {
       "format": "compressed",
-      "extensionName": ".css",
+      "extensionName": ".min.css",
       "savePath": "~/"
     }
   ],
@@ -92,10 +93,7 @@ xabikos.JavaScriptSnippets
       "icon": "terminal-powershell"
     },
     "Command Prompt": {
-      "path": [
-        "${env:windir}\\Sysnative\\cmd.exe",
-        "${env:windir}\\System32\\cmd.exe"
-      ],
+      "path": ["${env:windir}\\Sysnative\\cmd.exe", "${env:windir}\\System32\\cmd.exe"],
       "args": [],
       "icon": "terminal-cmd"
     },
@@ -107,5 +105,6 @@ xabikos.JavaScriptSnippets
       "args": ["-NoLogo"]
     }
   },
-  "terminal.integrated.enableMultiLinePasteWarning": false
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "css.styleSheets": ["https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css", "/style.css", "style.css", "style.scss", "${fileBasenameNoExtension}.css"]
 }
