@@ -53,6 +53,7 @@
     "webpack-dev-server": "^4.13.3"
   },
   "dependencies": {
+    "bulma": "^0.9.4",
     "@popperjs/core": "^2.11.7",
     "bootstrap": "^5.2.0",
     "date-fns": "^2.30.0",
