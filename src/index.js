@@ -25,3 +25,8 @@ el.addEventListener("click", () => {
 /* Bulma CSS Hamburger Menu Ends */
 
 /* npx kill-port 3000 */
+
+/* Need to add any of the following to vsCode setting json file to have CLASS intellisense */
+
+/*  "css.styleSheets": ["https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css", "/style.css", "style.css", "style.scss", "${fileBasenameNoExtension}.css"],
+  "css.styleSheets": ["https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css", "/style.css", "style.css", "style.scss", "${fileBasenameNoExtension}.css"] */
