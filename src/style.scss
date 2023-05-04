@@ -3,7 +3,9 @@
 @import "./scss/variables";
 /*  Import all of Bootstrap's CSS */
 @import "~bootstrap/scss/bootstrap";
-@import "~bulma/bulma";
+
+/* BULMA HAS ISSUES SO NEED TO IMPORT CSS DIRECTLY */
+@import "../node_modules/bulma/css/bulma.min.css";
 
 /* Importing ends here */
 

@@ -12,7 +12,7 @@ import * as bootstrap from "bootstrap";
 
 /* Following is required for Bulma CSS Hamburger Menu */
 
-const el = document.querySelector(".navbar-burger");
+/* const el = document.querySelector(".navbar-burger");
 
 el.addEventListener("click", () => {
   const targetExpand = document.getElementById("navbarBasicExample");
@@ -20,7 +20,7 @@ el.addEventListener("click", () => {
   // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
   el.classList.toggle("is-active");
   targetExpand.classList.toggle("is-active");
-});
+}); */
 
 /* Bulma CSS Hamburger Menu Ends */
 
