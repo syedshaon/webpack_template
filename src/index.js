@@ -30,3 +30,7 @@ el.addEventListener("click", () => {
 
 /*  "css.styleSheets": ["https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css", "/style.css", "style.css", "style.scss", "${fileBasenameNoExtension}.css"],
   "css.styleSheets": ["https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css", "/style.css", "style.css", "style.scss", "${fileBasenameNoExtension}.css"] */
+
+import { capitalize } from "./sum";
+
+console.log(capitalize("aabbcc"));
